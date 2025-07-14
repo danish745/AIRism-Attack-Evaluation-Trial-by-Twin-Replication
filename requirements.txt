@@ -1,6 +1,11 @@
+# Machine Learning & Data Processing
 pandas
 numpy
 matplotlib
 seaborn
 scikit-learn
 tensorflow
+
+# AirSim & Unreal Engine Support
+msgpack-python    # AirSim client communication
+airsim            # Official AirSim Python API
