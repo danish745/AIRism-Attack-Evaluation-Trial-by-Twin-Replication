@@ -12,7 +12,6 @@ AiRism-Attack-Evaluation/
 │   └── evaluation_table.ipynb
 ├── ml_script/              # ML pipeline scripts (training, trust scoring, prediction)
 ├── result/                 # Output images and plots (e.g., sybil_attack_prediction.png)
-├── .gitignore              # Git ignore rules
 ├── LICENSE                 # License file (MIT)
 ├── README.md               # Project overview and documentation
 └── requirements.txt        # Python dependencies
