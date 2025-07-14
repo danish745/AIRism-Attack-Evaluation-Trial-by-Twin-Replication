@@ -6,17 +6,17 @@ This repository contains the complete codebase, data, models, and evaluation for
 
 ```
 AiRism-Attack-Evaluation/
-├── attacks/                  # Jupyter notebooks for each attack type
-├── trusted_execution/        # Notebooks for simulation and trusted analysis
-├── data/                     # Simulation log datasets (normal + attacks)
-├── results/
-│   ├── coordination_plots/   # Coordination rate plots
-│   ├── confusion_matrix_grid.png
-│   ├── evaluation.png
-│   └── *.ipynb               # Evaluation notebooks
-├── README.md
-└── requirements.txt
-```
+├── attacks/                # Python scripts for attack scenarios (e.g., sybil_attack.py)
+├── data/                   # AirSim-generated drone log CSVs for each attack
+├── ml_notebook/            # Jupyter notebooks for ML modeling and evaluation
+│   └── evaluation_table.ipynb
+├── ml_script/              # ML pipeline scripts (training, trust scoring, prediction)
+├── result/                 # Output images and plots (e.g., sybil_attack_prediction.png)
+├── .gitignore              # Git ignore rules
+├── LICENSE                 # License file (MIT)
+├── README.md               # Project overview and documentation
+└── requirements.txt        # Python dependencies
+
 
 ## 🛠️ Setup Instructions
 
