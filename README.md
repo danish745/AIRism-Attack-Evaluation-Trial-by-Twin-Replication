@@ -37,12 +37,11 @@ pip install -r requirements.txt
 
 1. Open **Blocks environment** in Unreal Engine:
 ```bash
-C:\\Users\\danis\\AirSim\\Unreal\\Environments\\Blocks
-```
+<pre> <code> C:\user\Directory\Unreal\Environments\Blocks </code> </pre>
 
 2. Start simulation:
 ```bash
-cd C:\\Users\\danis\\AirSim\\PythonClient\\multirotor
+<pre> <code> cd C:\Users\YourUsername\AirSim\PythonClient\multirotor </code> </pre>
 python multi_drone.py
 ```
 
@@ -50,7 +49,7 @@ python multi_drone.py
 
 Create the following file at:
 ```
-C:\\Users\\danis\\Documents\\AirSim\\settings.json
+<pre> <code> directory/AirSim/settings.json </code> </pre>
 ```
 
 ```json
@@ -70,17 +69,3 @@ C:\\Users\\danis\\Documents\\AirSim\\settings.json
 - Use `trusted_execution/` for trusted swarm behavior
 - Use `attacks/` for ML evaluations of adversarial attacks
 - Use `results/` notebooks to reproduce confusion matrices and evaluation tables
-
-## 📄 Citation
-
-```bibtex
-@inproceedings{airism2025,
-  title     = {AiRism-Attack-Evaluation: Trial-by-Twin for Behavior-Predictive Trust in Autonomous Drone Swarms},
-  author    = {Your Name and Co-authors},
-  booktitle = {Proceedings of the [Conference Name]},
-  year      = {2025},
-  url       = {https://github.com/yourusername/AiRism-Attack-Evaluation}
-}
-```
-
----
